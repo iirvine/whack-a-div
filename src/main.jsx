@@ -1,4 +1,5 @@
 import React from 'react';
+import Surface from './Surface';
 
-React.render(<div>hello there</div>,
+React.render(<Surface/>,
   document.getElementById('app'));
