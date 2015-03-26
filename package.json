@@ -27,6 +27,8 @@
     "webpack-dev-server": "^1.7.0"
   },
   "dependencies": {
+    "babel": "^4.7.16",
+    "babel-runtime": "^4.7.16",
     "react": "^0.13.1"
   }
 }
