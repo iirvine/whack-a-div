@@ -4,7 +4,8 @@
   "description": "whack a div!!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-dev-server --progress --colors --inline --content-base dist/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/iirvine/whack-a-div/issues"
   },
-  "homepage": "https://github.com/iirvine/whack-a-div"
+  "homepage": "https://github.com/iirvine/whack-a-div",
+  "devDependencies": {
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
+    "node-sass": "^3.0.0-pre",
+    "sass-loader": "^1.0.0",
+    "style-loader": "^0.9.0",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
+  }
 }
